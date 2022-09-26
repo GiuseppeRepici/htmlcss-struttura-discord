@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bigconteiner{
+    width: 920px;
+    height: 100vh;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.nav-testa{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: green;
+}
+
+.little-cont{
+    height: 40px;
+    width: 80%;
+    background-color: orange;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tit1 , .tit2 , .tit3 {
+    border: 2px solid black;
+}
+
+.tit1 , .tit3{
+    flex-grow: 1;
+}
+
+.tit2{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.tit3{
+    text-align: right;
+}
+
+.sect1 {
+    background-color: blueviolet;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    background-color: blue;
+    height: 120px;
+    width: 50%;
+    align-self: center;
+}
+
+
+.sect2 {
+    background-color: red;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    background-color: blue;
+    height: 120px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+}
+
+.sect1-box2 {
+    flex-grow: 1.5;
+    border: 2px solid black;
+}
+
+.sect2-box2 {
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.sect3 {
+    background-color: orange;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.sect1-box3 {
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.sect2-box3 {
+    flex-grow: 1.5;
+    border: 2px solid black;
+}
+
+.sect4 {
+    background-color: violet;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box4{
+    background-color: blue;
+    height: 90%;
+    width: 50%;
+    align-self: center;
+}
+
+.sect5 {
+    background-color: red;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.box5{
+    background-color: blue;
+    height: 120px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+}
+
+.sect1-box5 {
+    flex-grow: 1.5;
+    border: 2px solid black;
+}
+
+.sect2-box5 , .sect3-box5 , .sect4-box5 , .sect5-box5{
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box6{
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.box6 span{
+
+    border: 2px solid black;
+    width: 65px;
+    padding-left: 10px;
+}
+
+.sp1 , .sp2{
+    align-self: center;
+
+}
+
+
