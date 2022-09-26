@@ -168,7 +168,23 @@ footer{
 
 .sp1 , .sp2{
     align-self: center;
-
 }
+
+.tit2{
+    display: flex;
+    justify-content: center;
+}
+.tit2 ul{
+    display: flex;
+    list-style: none;
+    column-gap: 1rem; 
+}
+
+a{
+    color: black;
+}
+
+
+
 
 
