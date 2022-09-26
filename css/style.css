@@ -127,9 +127,10 @@
 }
 .box5{
     background-color: blue;
-    height: 120px;
+    height: 130px;
     width: 80%;
-    align-self: center;
+    margin-top: 7px;
+    align-self: ;
     display: flex;
 }
 
